@@ -322,20 +322,22 @@ footer {
 
 @media only screen and (max-width: 600px) {
     body {
-      font-family: 'Calibri';
+      font-family: Helvetica;
     }
 
     #button-choice {
         margin: 1%;
         text-align: center;
-        background-color: rgb(139, 21, 5);
+        background-color: rgb(134, 20, 5);
         border: 5pt solid rgb(134, 20, 5);
         width: 25%;
         box-shadow: -3px 4px 3px rgb(189, 188, 188);
         font-size: 6pt;
+        vertical-align: middle;
     }
 
     h1 {
-        font-family: 'fantasy';
+        font-family: fantasy;
+        font-weight: bold;
     }
   }
